@@ -8,12 +8,20 @@
                 安装：安装位置不建议在C盘，不要存在中文路径，剩下的一路next，安装完成后随便找到文件夹右键会发现有个GitBash这就证明安装好了
                 使用：
                         a.获取ssh密钥：
-                                打开输入:ssh-keygen -t rsa -C "Git账号"，输入之后一处要求输入y，剩下一路回车（Enter）确认就好了
-                                ![image](https://user-images.githubusercontent.com/96098969/226531764-6cc1bdb1-73cc-400d-9692-6ad6ee703424.png)
+                          打开输入:ssh-keygen -t rsa -C "Git账号"，输入之后一处要求输入y，剩下一路回车（Enter）确认就好了
+                          ![image](https://user-images.githubusercontent.com/96098969/226531764-6cc1bdb1-73cc-400d-9692-6ad6ee703424.png)
                         b.找到密钥生成的路径：
-                                C:\Users\Gaopeng\.ssh\id_rsa.pub(本机实例生成的路径，一般都是在C盘的Users用户下的.ssh中),id_rsa.pub就是我们需要的密钥了
-                                 ![image](https://user-images.githubusercontent.com/96098969/226531705-a58acf40-8523-4171-bcbc-ba6c584e0b93.png)
-                        c.
+                          C:\Users\Gaopeng\.ssh\id_rsa.pub(本机实例生成的路径，一般都是在C盘的Users用户下的.ssh中),id_rsa.pub就是我们需要的密钥了
+                          ![image](https://user-images.githubusercontent.com/96098969/226531705-a58acf40-8523-4171-bcbc-ba6c584e0b93.png)
+                        c.绑定ssh密钥：
+                          现在你就需要登录到你的GitHub上边添加这个密钥
+                          ![image](https://user-images.githubusercontent.com/96098969/226532484-c63acb10-20d1-4ffe-9327-ab75765ad46d.png)
+                          将整个id_rsa.pub内容复制
+                          ![image](https://user-images.githubusercontent.com/96098969/226532547-a7d2abe7-25cf-4875-a600-34a51277e29b.png)
+                          添加成功
+
+                          
+                              
                                  
 
                                 
