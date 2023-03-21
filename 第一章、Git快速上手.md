@@ -1,4 +1,3 @@
-###
 ### 1、在windows系统使用Git:
        要让自己的电脑克隆一个自己所创建的库，方便自己电脑上的代码同步到GitHub中你所创建的库当中，为了实现，就需要安装一个软件，GitBash。    
 ### 2、GitBash
@@ -28,12 +27,12 @@
         之后回到你的Git bash上边了,输入：ssh -T git@github.com,然后输入上边的代码，来检查是否成功绑定。如果输入之后选择yes出来是这样说明就成功了。
 ![image](https://user-images.githubusercontent.com/96098969/226533208-e8a65ceb-196b-44b9-b2e0-8b5941a24740.png)
 ##### e.设置全局账号信息：
-        安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：                                 你的名字和Email地址，
+        安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址，
                 git config --global user.name “git账号”
                 git config --global user.email “git邮箱，注册时候的邮箱”
 ![image](https://user-images.githubusercontent.com/96098969/226547511-484ab4fd-1708-4a1b-815a-5e3d17900ea0.png)
 ##### f.代码克隆：
-        下面就要将你的库克隆下来到本地电脑中，方便以后进行上传代码，链接: https://github.com/，
+        下面就要将你的库克隆下来到本地电脑中，方便以后进行上传代码，链接: https://github.com/
 ![image](https://user-images.githubusercontent.com/96098969/226548054-7a204161-97a1-487d-8c79-895fd2fa7f7e.png)
         在库创建完成之后 会有一个网址出现在网页中，这个地址就是代码地址。git clone 命令会用的到。
 ![image](https://user-images.githubusercontent.com/96098969/226548658-1fb4774e-0f68-4dd0-9241-f7fa760c58fa.png)
